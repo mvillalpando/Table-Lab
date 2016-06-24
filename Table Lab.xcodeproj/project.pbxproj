@@ -14,6 +14,8 @@
 		AB3FAB761D1D90F500A430A5 /* Table_Lab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB3FAB741D1D90F500A430A5 /* Table_Lab.xcdatamodeld */; };
 		AB3FAB781D1D90F500A430A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3FAB771D1D90F500A430A5 /* Assets.xcassets */; };
 		AB3FAB7B1D1D90F500A430A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3FAB791D1D90F500A430A5 /* LaunchScreen.storyboard */; };
+		AB3FAB861D1DA40B00A430A5 /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3FAB851D1DA40B00A430A5 /* Intro.m */; };
+		AB3FAB891D1DA6D800A430A5 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3FAB881D1DA6D800A430A5 /* Declarations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		AB3FAB771D1D90F500A430A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB3FAB7A1D1D90F500A430A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB3FAB7C1D1D90F500A430A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3FAB841D1DA40B00A430A5 /* Intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intro.h; sourceTree = "<group>"; };
+		AB3FAB851D1DA40B00A430A5 /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
+		AB3FAB871D1DA6D800A430A5 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		AB3FAB881D1DA6D800A430A5 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,8 @@
 			children = (
 				AB3FAB6C1D1D90F500A430A5 /* AppDelegate.m */,
 				AB3FAB6B1D1D90F500A430A5 /* AppDelegate.h */,
+				AB3FAB871D1DA6D800A430A5 /* Declarations.h */,
+				AB3FAB881D1DA6D800A430A5 /* Declarations.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -94,6 +102,8 @@
 			children = (
 				AB3FAB6E1D1D90F500A430A5 /* Start.h */,
 				AB3FAB6F1D1D90F500A430A5 /* Start.m */,
+				AB3FAB841D1DA40B00A430A5 /* Intro.h */,
+				AB3FAB851D1DA40B00A430A5 /* Intro.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -169,6 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB3FAB761D1D90F500A430A5 /* Table_Lab.xcdatamodeld in Sources */,
+				AB3FAB861D1DA40B00A430A5 /* Intro.m in Sources */,
+				AB3FAB891D1DA6D800A430A5 /* Declarations.m in Sources */,
 				AB3FAB701D1D90F500A430A5 /* Start.m in Sources */,
 				AB3FAB6D1D1D90F500A430A5 /* AppDelegate.m in Sources */,
 				AB3FAB6A1D1D90F500A430A5 /* main.m in Sources */,
