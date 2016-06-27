@@ -46,7 +46,7 @@
                                 <rect key="frame" x="40" y="62" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="n24-1y-g4p" userLabel="btnIntro">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="n24-1y-g4p" userLabel="btnIntro">
                                 <rect key="frame" x="118" y="386" width="84" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -70,6 +70,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jDF-Hf-Zxc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="910" y="280"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="6Ru-Pl-rAA">
+            <objects>
+                <viewController storyboardIdentifier="Home" id="l1a-cL-XBH" customClass="Home" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eTD-Fn-FSI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZEr-CP-8c1" userLabel="tblHome">
+                                <rect key="frame" x="0.0" y="35" width="320" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="l1a-cL-XBH" id="3Qe-hb-w3H"/>
+                                    <outlet property="delegate" destination="l1a-cL-XBH" id="Jt0-BN-bx6"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.28321659482758621" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="tblHome" destination="ZEr-CP-8c1" id="b0U-07-uMI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="azs-B4-pfn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1247" y="280"/>
         </scene>
     </scenes>
 </document>

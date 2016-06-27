@@ -19,6 +19,9 @@
 		AB3FAB901D1DDBBA00A430A5 /* pelota.png in Resources */ = {isa = PBXBuildFile; fileRef = AB3FAB8D1D1DDBBA00A430A5 /* pelota.png */; };
 		AB3FAB911D1DDBBA00A430A5 /* sandalias.png in Resources */ = {isa = PBXBuildFile; fileRef = AB3FAB8E1D1DDBBA00A430A5 /* sandalias.png */; };
 		AB3FAB921D1DDBBA00A430A5 /* sol.png in Resources */ = {isa = PBXBuildFile; fileRef = AB3FAB8F1D1DDBBA00A430A5 /* sol.png */; };
+		AB614D2D1D21900800AD0B09 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = AB614D2C1D21900800AD0B09 /* Home.m */; };
+		AB614D321D219E4E00AD0B09 /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = AB614D301D219E4E00AD0B09 /* cellHome.m */; };
+		AB614D331D219E4E00AD0B09 /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB614D311D219E4E00AD0B09 /* cellHome.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,11 @@
 		AB3FAB8D1D1DDBBA00A430A5 /* pelota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pelota.png; sourceTree = "<group>"; };
 		AB3FAB8E1D1DDBBA00A430A5 /* sandalias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sandalias.png; sourceTree = "<group>"; };
 		AB3FAB8F1D1DDBBA00A430A5 /* sol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sol.png; sourceTree = "<group>"; };
+		AB614D2B1D21900800AD0B09 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		AB614D2C1D21900800AD0B09 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		AB614D2F1D219E4E00AD0B09 /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
+		AB614D301D219E4E00AD0B09 /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
+		AB614D311D219E4E00AD0B09 /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				AB3FAB8C1D1DDBBA00A430A5 /* imgs */,
+				AB614D2E1D219D6E00AD0B09 /* Cells */,
 				AB3FAB821D1D93BC00A430A5 /* Main */,
 				AB3FAB831D1D93C800A430A5 /* Controllers */,
 				AB3FAB711D1D90F500A430A5 /* Main.storyboard */,
@@ -111,6 +120,8 @@
 				AB3FAB6F1D1D90F500A430A5 /* Start.m */,
 				AB3FAB841D1DA40B00A430A5 /* Intro.h */,
 				AB3FAB851D1DA40B00A430A5 /* Intro.m */,
+				AB614D2B1D21900800AD0B09 /* Home.h */,
+				AB614D2C1D21900800AD0B09 /* Home.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -123,6 +134,16 @@
 				AB3FAB8F1D1DDBBA00A430A5 /* sol.png */,
 			);
 			path = imgs;
+			sourceTree = "<group>";
+		};
+		AB614D2E1D219D6E00AD0B09 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AB614D2F1D219E4E00AD0B09 /* cellHome.h */,
+				AB614D301D219E4E00AD0B09 /* cellHome.m */,
+				AB614D311D219E4E00AD0B09 /* cellHome.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB3FAB921D1DDBBA00A430A5 /* sol.png in Resources */,
+				AB614D331D219E4E00AD0B09 /* cellHome.xib in Resources */,
 				AB3FAB7B1D1D90F500A430A5 /* LaunchScreen.storyboard in Resources */,
 				AB3FAB911D1DDBBA00A430A5 /* sandalias.png in Resources */,
 				AB3FAB781D1D90F500A430A5 /* Assets.xcassets in Resources */,
@@ -202,7 +224,9 @@
 				AB3FAB861D1DA40B00A430A5 /* Intro.m in Sources */,
 				AB3FAB891D1DA6D800A430A5 /* Declarations.m in Sources */,
 				AB3FAB701D1D90F500A430A5 /* Start.m in Sources */,
+				AB614D2D1D21900800AD0B09 /* Home.m in Sources */,
 				AB3FAB6D1D1D90F500A430A5 /* AppDelegate.m in Sources */,
+				AB614D321D219E4E00AD0B09 /* cellHome.m in Sources */,
 				AB3FAB6A1D1D90F500A430A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +376,7 @@
 				AB3FAB811D1D90F500A430A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

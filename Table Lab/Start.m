@@ -68,6 +68,7 @@
     // Create a new view controller and pass suitable data.
     Intro *pageIntro            = [self.storyboard instantiateViewControllerWithIdentifier:@"Intro"];
     pageIntro.iPageIndex      = index;
+    pageIntro.btnIntro.hidden = NO;
     
     return pageIntro;
 }
